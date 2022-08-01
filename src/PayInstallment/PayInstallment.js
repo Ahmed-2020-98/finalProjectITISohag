@@ -17,6 +17,15 @@ export default function PayInstallment() {
                         <FaCcMastercard  className='mx-3 fs-1'/>
                     </div>
                 </div>
+                <form>
+                    <label>Enter your nation id</label>
+                     <input className='form-control nId' placeholder='ex. 0000 0000 0000 0000' type="number"/>
+                     <button className='btn border-2 button2'>Find Due Amounts</button>
+                </form>
+                
+                    
+                    
+                
             </div>
         </div>
     </div>
