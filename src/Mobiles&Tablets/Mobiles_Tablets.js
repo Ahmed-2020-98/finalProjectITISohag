@@ -5,13 +5,8 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import Rating from "react-rating";
 import StarRating from 'star-rating-react';
 import Slider from "react-slick";
-
-
-
-
-
+import { FaSortAmountDown } from "react-icons/fa";
 const Mobiles_Tablets = () => {
-
 
     var settings = {
         className: "slider variable-width",
@@ -27,6 +22,8 @@ const Mobiles_Tablets = () => {
 
         <div className="mx-3 marginDiv">
             <div className="container">
+
+
                 <div className="d-flex justify-content-center">
                     <h1 className="pageHeader">Mobiles & Tablets</h1>
                 </div>
@@ -54,14 +51,24 @@ const Mobiles_Tablets = () => {
 
             <div className="row">
                 <div className="col-3">
-                {/* call sidebar here */}
+                    {/* call sidebar here */}
                 </div>
                 <div className="col-9">
                     <div className="mx-5">
                         <div className="d-flex justify-content-between">
                             <span>10000 Product</span>
 
-                            <h4>DropDown Here</h4>
+                            <div className="d-flex">
+                            <FaSortAmountDown/>
+                                <select className="d-flex px-5 border-bottom dropDown active">
+                                    <option className="dropdown-item" value="1" selected disabled>Position</option>
+                                    <option className="dropdown-item" value="2">Price</option>
+                                    <option className="dropdown-item" value="3">A-z</option>
+                                    <option className="dropdown-item" value="4">Rating</option>
+
+                                </select>
+                            </div>
+
 
                         </div>
                         <div className=" d-flex justify-content-center my-5">

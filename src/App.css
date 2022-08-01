@@ -95,4 +95,9 @@ img, video {
   background-color: #001c46 !important;
 }
 
+.dropDown, .dropDown:hover .dropDown:not(:active) , #dropdown-basic{
+  border: none !important;
+  background-color: #fafbfb !important;
+  color: black !important;
 
+}
