@@ -1,16 +1,12 @@
 import './App.css';
-import Login from './Login/Login';
-import Register from './Register/Register';
-import Footer from './Footer/Footer';
-import PayInstallment from './PayInstallment/PayInstallment';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Mobiles_Tablets from './Mobiles&Tablets/Mobiles_Tablets';
 
 function App() {
   return (
-    <div>
-      <Login/>
-      <Register/>
-      <PayInstallment/>
-      <Footer/>
+    <div className="countainer_fluid">
+     <Mobiles_Tablets/>
     </div>
   );
 }
