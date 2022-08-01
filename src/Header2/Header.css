@@ -1,12 +1,13 @@
 .navbar{
     width: 100%;
-    height: 30px;
+    height: 100px;
     background-color: #1a1a57;
     border-radius:0px 0px 15px 15px;
 }
 .upperheader{
     display: flex;
-    
+    width: 100%;
+    justify-content: space-between;
 }
 .oneLeft p{
     color:#ffff00;
@@ -27,4 +28,25 @@ color: aliceblue;
     padding-right: 40px;
     text-decoration: none;
 
+}
+.loweheader{
+    display: flex;
+    justify-content: space-between;
+}
+.loweheader p:nth-child(1){
+    color: #fff;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.loweheader input {
+    margin-right: 300px;
+    margin-left: 100px;
+    width: 500px;
+    height:44px;
+
+}
+.loweheader p:nth-child(3){
+    color: #fff;
+    padding-left: 50px;
 }

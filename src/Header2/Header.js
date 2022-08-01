@@ -19,7 +19,9 @@ export default function Header() {
                 </div>
             </div>
             <div className='loweheader'>
-
+                <p>Icone</p>
+                <input  className='form-control'/>
+                <p>Login or register</p>
             </div>
         </div>
     </div>
