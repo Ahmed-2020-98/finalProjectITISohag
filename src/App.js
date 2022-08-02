@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 <<<<<<< HEAD
 import Login from './Login/Login';
@@ -31,8 +32,26 @@ function App() {
      <Large_Appliances/>
      <Small_Appliances/>
 >>>>>>> MinaFarid
+=======
+import React from 'react'
+
+import './App.css';
+import Home from './components/home';
+import Raya from './components/raya';
+
+
+function App() {
+  return (
+    <div className="App">
+     {/* <Home /> */}
+     <Raya />
+>>>>>>> 39926579cb0af68d296b79474f04cc30f1fc2ed3
     </div>
   );
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 39926579cb0af68d296b79474f04cc30f1fc2ed3
 export default App;
