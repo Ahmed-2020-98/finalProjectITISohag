@@ -1,41 +1,24 @@
 /* /////////////////////// */
 .ProductCard {
-  border-radius: 30px;
-  position: relative;
-  display: flex;
+  border-radius: 40px;
   cursor: pointer;
-  flex-direction: column;
 }
 .ProductCard__Thumb{
-  width: 184px;
-  height: 151px
-}
-img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  vertical-align: middle;
+  width: 65%;
 }
 .ProductCard__Details {
-  min-height: 295px;
-  border-radius: 40px;
-  position: relative;
+  border-radius: 30px;
   margin-top: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 1.25rem;
   border-radius: 30px;
-  box-shadow: 0 0 40px -12px rgb(0 28 70 / 20%);
-  min-height: 282px;
-  max-height: 300px;
+  box-shadow: 0 0 40px -12px rgb(0 28 70 / 30%);
+
 }
-.name {
-  height: 64px;
-}
+
 .text-sm {
   font-size: 0.875rem;
-
 }
 .font-body {
   font-family: Roboto, Arial, sans-serif;
@@ -43,13 +26,13 @@ img, video {
 .product-price{
   color: rgb(0, 136, 210);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.4rem;
 }
 .compareButton{
   border-radius: 20px;
   background-color: #e5f0f7;
   border: none;
-  color: #007bcc;
+  color: #045f9b;
 }
 .endLine {
   width: 100%; 
@@ -80,15 +63,13 @@ img, video {
   padding: 5px;
   border-radius: 0px 0px 10px 10px;
 }
-.marginDiv{
-  margin-top: 200px;
-}
+
 .pageHeader{
   font-size: 3rem;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.3rem;
   color: #001c46;
 }
 .loadMore{
@@ -101,3 +82,11 @@ img, video {
   color: black !important;
 
 }
+.col-lg-3{
+  width: 23% !important;
+}
+
+div{
+  /* border: 1px solid black; */
+}
+

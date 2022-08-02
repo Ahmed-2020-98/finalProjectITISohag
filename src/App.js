@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="countainer_fluid">
      <Mobiles_Tablets/>
-     <Televisions/>
+     {/* <Televisions/> */}
     </div>
   );
 }
