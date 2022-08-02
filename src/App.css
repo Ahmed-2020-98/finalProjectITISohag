@@ -1,0 +1,87 @@
+/* /////////////////////// */
+.ProductCard {
+  border-radius: 40px;
+  cursor: pointer;
+}
+.ProductCard__Thumb{
+  width: 65%;
+}
+.ProductCard__Details {
+  border-radius: 30px;
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 40px -12px rgb(0 28 70 / 30%);
+
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+.font-body {
+  font-family: Roboto, Arial, sans-serif;
+}
+.product-price{
+  color: rgb(0, 136, 210);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.compareButton{
+  border-radius: 20px;
+  background-color: #e5f0f7;
+  border: none;
+  color: #045f9b;
+}
+.endLine {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: .01rem solid rgb(155, 155, 155); 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.endLine span { 
+   background:#fafbfb; 
+   padding:0 10px; 
+}
+.grow {
+  transition: all .2s ease-in-out;
+}
+.grow:hover { 
+  transform: scale(1.05); 
+}
+.heart{
+  top:0px;
+  right:20px;
+}
+.loveBtn{
+  background-color: #e5f0f7;
+  height: 55px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.pageHeader{
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+  color: #001c46;
+}
+.loadMore{
+  background-color: #001c46 !important;
+}
+
+.dropDown, .dropDown:hover .dropDown:not(:active) , #dropdown-basic{
+  border: none !important;
+  background-color: #fafbfb !important;
+  color: black !important;
+
+}
+
+div{
+  /* border: 1px solid black; */
+}
