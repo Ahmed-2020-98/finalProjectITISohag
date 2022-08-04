@@ -8,21 +8,21 @@ export default function Register() {
       <div className='link3'><span>&lt;</span><a href='#'> Back</a></div>
             <div className='content '>
              
-                <div className='right'>
+                <div className='rightRigister'>
                   <h1>CREATE ACCOUNT</h1>
                   <h2>Login to your account for a faster checkout process</h2>
-                <form>
-                  <input type="text" className='form-control' placeholder='Enter Name'/>
-                  {/* <span>This field is required</span> */}
-                  <input type="text" className='form-control' placeholder='Enter Email'/>
-                  {/* <span>This field is required</span> */}
-                  <input type="number" className='form-control' placeholder='Phone'/>
-                  {/* <span>This field is required</span> */}
-                  <input type="password" className='form-control' placeholder='Enter Password'/>
-                  {/* <span>This field is required</span> */}
-                  
-                  <button className='btn  button2'>Create Account</button>
-                </form>
+                  <form >
+                    <input type="text" className='form-control' placeholder='Enter Name'/>
+                    {/* <span>This field is required</span> */}
+                    <input type="text" className='form-control' placeholder='Enter Email'/>
+                    {/* <span>This field is required</span> */}
+                    <input type="number" className='form-control' placeholder='Phone'/>
+                    {/* <span>This field is required</span> */}
+                    <input type="password" className='form-control' placeholder='Enter Password'/>
+                    {/* <span>This field is required</span> */}
+                    
+                    <button className='btn  button2'>Create Account</button>
+                  </form>
                 </div>
                 <div className='left'>
                   <div className='imgbg d-flex'>

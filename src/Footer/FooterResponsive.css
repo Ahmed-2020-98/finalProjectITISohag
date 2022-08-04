@@ -3,7 +3,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1406px ) {
+@media (min-width: 1281px) {
   
     /* CSS */
     
@@ -14,12 +14,8 @@
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media (min-width: 1025px) and (max-width: 1406px) {
-    .content{
-      display: grid;
-      grid-template-columns: 1fr;
-      column-gap: 119px;
-  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
 
     
   }
@@ -31,10 +27,15 @@
   
   @media (min-width: 768px) and (max-width: 1024px) {
     
-    .content{
-        display: grid;
+    .footerUpper{
+        
         grid-template-columns: 1fr;
-    }
+        
+        }
+        .footerLower{
+            flex-direction: column;
+            align-items: center 
+        }
     
   }
   
@@ -45,10 +46,15 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
-    .content{
-      display: grid;
-      grid-template-columns: 1fr;
-  }
+    .footerUpper{
+        
+        grid-template-columns: 1fr;
+        
+        }
+    .footerLower{
+        flex-direction: column;
+        align-items: center 
+    }
     
   }
   
@@ -58,19 +64,15 @@
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-    
-    .content{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .left , .right{
-        padding-top: 20px;
-       
-    }
-    .imgbg{
-        width:100%;
+    .footerUpper{
         
-    }
+        grid-template-columns: 1fr;
+        
+        }
+    .footerLower{
+        flex-direction: column;
+        align-items: center 
+    }  
     
   }
   
@@ -80,15 +82,19 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
-    .content{
-        display: grid;
+    .footerUpper{
+        
         grid-template-columns: 1fr;
-    }
-    .left , .right{
-        padding-top: 20px;
-        height: 40vh;
-       
-    }
-    
+        
+        }
+        .footerLower{
+            flex-direction: column;
+            align-items: center ;
+            
+        }
+        .footerLower div{
+            padding-top: 200px;
+            padding-bottom: 10px;
+
+        }
   }

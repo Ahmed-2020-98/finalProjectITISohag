@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import './FooterResponsive.css'
 import { FaApple,FaGooglePlay,FaCcMastercard } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsArrowRightSquareFill,BsInstagram } from "react-icons/bs";
@@ -8,7 +9,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 export default function Footer() {
   return (
     <>
-    <footer className='footer '>
+    <footer className='footer'>
         <div className='container'>
             <div className='footerContent'>
                 <div className='footerUpper'>
@@ -36,11 +37,15 @@ export default function Footer() {
                         <p> <FaApple className='FaApple'/>  App Store</p>
                         
                     </div>
-                    <div>
+                    <div >
                         <h4>Stay in the know</h4>
                         <p>Subscribe to our newsletter</p>
-                        
-                        <p><MdOutlineEmail className='MdOutlineEmail'/><input type="text" className='inputFooter' placeholder='Email-(ex@gmail.com)'/> <BsArrowRightSquareFill className='BsArrowRightSquareFill'/></p>
+                
+                        <div className='MdOutlineEmailDiv'>
+                            <MdOutlineEmail className='MdOutlineEmail'/>
+                            <input type="text" className='inputFooter' placeholder='Email-(ex@gmail.com)'/>
+                             <BsArrowRightSquareFill className='BsArrowRightSquareFill'/>
+                        </div>
                     </div>
                 </div>
 

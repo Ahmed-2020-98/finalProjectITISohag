@@ -66,14 +66,13 @@ color: #667790;
 font-size: 14px;
 margin-top: 8px;
 }
-.right input[type="text"],input[type="password"]{
+.right input{
 
-    width: 190%;
+    width: 100%;
     padding: 10px;
     border-radius: 20px;
     border:1px solid rgba(99, 99, 99, 0.426);
     margin-top: 20px;
-    margin-left: -50px;
 }
 span{
     color: #D30000;

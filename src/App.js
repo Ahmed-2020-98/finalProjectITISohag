@@ -9,10 +9,10 @@ import Header from './Header2/Header';
 function App() {
   return (
     <div>
-      <Header/>
-      {/* <Login/> */}
-      {/* <Register/> */}
-      {/* <PayInstallment/> */}
+      {/* <Header/> */}
+      <Login/>
+      <Register/>
+      <PayInstallment/>
       <StoreLocator/>
       <Footer/>
     </div>
